@@ -1,0 +1,61 @@
+#openai-chat-widget {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+}
+
+#openai-chat-container {
+    display: none;
+    width: 300px;
+    height: 400px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+#openai-chat-header {
+    background-color: #2196f3;
+    color: #fff;
+    padding: 10px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#openai-chat-close {
+    cursor: pointer;
+}
+
+#openai-chat-body {
+    height: 90%;
+    padding: 10px;
+    overflow-y: scroll;
+}
+
+#openai-chat-messages {
+    margin-bottom: 10px;
+}
+
+#openai-chat-input {
+    display: flex;
+}
+
+#openai-chat-text {
+    flex-grow: 1;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+#openai-chat-send {
+    padding: 5px 10px;
+    border-radius: 3px;
+    background-color: #2196f3;
+    color: #fff;
+    border: none;
+    margin-left: 5px;
+    cursor: pointer;
+}
